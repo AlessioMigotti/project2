@@ -54,12 +54,13 @@ function getChoice() {
     } else {
         answers.push('5');
     }
+    console.log(answers);
 
 
-   
-    if (currentQuestionNumber < questions.length-1) {
-        currentQuestionNumber++ }
-    else {
+
+    if (currentQuestionNumber < questions.length - 1) {
+        currentQuestionNumber++
+    } else {
         showGraph();
     }
 
@@ -76,12 +77,31 @@ function getChoice() {
 
 
 function showGraph() {
-   
-    for (i=0; i<answers.length; i++) {
-        alert(answers[i]);
-    }
-    // put your graph stuff here !!!!!!!!!!
 
+  document.getElementById('survey-current-question').style.display = 'none';
+  document.getElementById('submit').style.display = 'none';
+  
+    // put your graph stuff here !!!!!!!!!!
+    
+    var xValues = answers;
+    var yValues = ['q1', 'q2', 'q3', 'q4', 'q5'];
+    let axis
+    new Chart("myChart", {
+        type: "line",
+        data: {
+            labels: yValues,
+            datasets: [{
+                backgroundColor: "rgba(0,0,0,1.0)",
+                borderColor: "rgba(0,0,0,0.1)",
+                data: xValues
+            }]
+        },
+        options: {scales: {yAxes: [{ticks: {beginAtZero: true, 
+            max: 5, 
+            min: 0,
+            afterBuildTicks: axis = [{value: 0},{value: 1},{value: 2},{value: 3},{value: 4},{value: 5}]
+        }}]}}
+        })
 }
 // The main code - i.e. the actual call to the game function
 setup();
