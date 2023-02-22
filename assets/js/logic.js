@@ -1,6 +1,3 @@
-let document = document
-let console = console
-let Chart = Chart
 var questions = [
     'Freedom is a state of the mind.',
     'You\'re free to do what you want.',
