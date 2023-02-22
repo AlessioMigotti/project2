@@ -1,8 +1,13 @@
+let document = document
+let console = console
+let Chart = Chart
 var questions = [
-    'Question: Why are bicycles so dangerous?',
-    'Question: What happens if you are obsessed with fire safety?',
-    'Question: What happens when I recognise that you are the prick who started this and you are are in the toilet with just me and no witnesses?'
-]
+    'Freedom is a state of the mind.',
+    'You\'re free to do what you want.',
+    'You don\'t feel somethig is restricting your freedom.',
+    'You can ask anyone whatever you want.',
+    'You can dance at any moment.'
+];
 
 var answers = [];
 
@@ -19,8 +24,7 @@ const radio5 = document.getElementById('choice-5');
 // counter for the current question
 var currentQuestionNumber = 0;
 
-// hook into the submit button
-const submit = document.getElementById('submit');
+
 
 function setup() {
 
@@ -85,15 +89,17 @@ function showGraph() {
 
     var xValues = ['q1', 'q2', 'q3', 'q4', 'q5'];
     var yValues = answers;
-    let axis;
+    
     new Chart("myChart", {
         type: "line",
         data: {
             labels: xValues,
             datasets: [{
                 backgroundColor: "rgba(0,0,0,0)",
-                borderColor: "rgba(0,0,0,1)",
-                data: yValues
+                borderColor: "#004d00",
+                data: yValues,
+                pointRadius: 5, // set the size of the data points
+                pointHoverRadius: 7 // set the size of the data points when hovered over
             }]
         },
         options: {
@@ -117,7 +123,7 @@ function showGraph() {
                     mode: 'horizontal',
                     scaleID: 'y-axis-0',
                     value: 3,
-                    borderColor: 'green',
+                    borderColor: '#ba0000',
                     borderWidth: 5,
                     label: {
                         enabled: true,
