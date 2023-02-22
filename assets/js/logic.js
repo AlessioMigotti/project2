@@ -78,30 +78,57 @@ function getChoice() {
 
 function showGraph() {
 
-  document.getElementById('survey-current-question').style.display = 'none';
-  document.getElementById('submit').style.display = 'none';
-  
+    document.getElementById('survey-current-question').style.display = 'none';
+    document.getElementById('submit').style.display = 'none';
+
     // put your graph stuff here !!!!!!!!!!
-    
-    var xValues = answers;
-    var yValues = ['q1', 'q2', 'q3', 'q4', 'q5'];
-    let axis
+
+    var xValues = ['q1', 'q2', 'q3', 'q4', 'q5'];
+    var yValues = answers;
+    let axis;
     new Chart("myChart", {
         type: "line",
         data: {
-            labels: yValues,
+            labels: xValues,
             datasets: [{
-                backgroundColor: "rgba(0,0,0,1.0)",
-                borderColor: "rgba(0,0,0,0.1)",
-                data: xValues
+                backgroundColor: "rgba(0,0,0,0)",
+                borderColor: "rgba(0,0,0,1)",
+                data: yValues
             }]
         },
-        options: {scales: {yAxes: [{ticks: {beginAtZero: true, 
-            max: 5, 
-            min: 0,
-            afterBuildTicks: axis = [{value: 0},{value: 1},{value: 2},{value: 3},{value: 4},{value: 5}]
-        }}]}}
-        })
+        options: {
+            title: {
+                display: true,
+                text: 'My Freedom State'
+            },
+            scales: {
+                yAxes: [{
+                    ticks: {
+
+                        max: 5,
+                        min: 1,
+                        stepSize: 1 // Add this option to make y-axis labels integers
+                    }
+                }]
+            },
+            annotation: {
+                annotations: [{
+                    type: 'line',
+                    mode: 'horizontal',
+                    scaleID: 'y-axis-0',
+                    value: 3,
+                    borderColor: 'green',
+                    borderWidth: 5,
+                    label: {
+                        enabled: true,
+                        content: 'Averege Freedom',
+                        position: 'left'
+                    }
+                }]
+            }
+        }
+    });
+
 }
 // The main code - i.e. the actual call to the game function
 setup();
