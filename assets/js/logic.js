@@ -1,7 +1,7 @@
 var questions = [
     'Freedom is a state of the mind.',
     'You\'re free to do what you want.',
-    'You don\'t feel somethig is restricting your freedom.',
+    'You don\'t feel something is restricting your freedom.',
     'You can ask anyone whatever you want.',
     'You can dance at any moment.'
 ];
@@ -124,10 +124,19 @@ function showGraph() {
                     borderWidth: 5,
                     label: {
                         enabled: true,
-                        content: 'Averege Freedom',
+                        content: 'Average Freedom',
                         position: 'left'
                     }
                 }]
+            },
+            plugins: {
+                legend: {
+                    display: false,
+                    labels: {
+                        text: 'Your Freedom',
+                        color: '#ffffff'
+                    }
+                }
             }
         }
     });
