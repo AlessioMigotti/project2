@@ -123,6 +123,11 @@ function showGraph() {
                     value: 3,
                     borderColor: '#ba0000',
                     borderWidth: 5,
+                    label: {
+                        enabled: true,
+                        content: 'Averege ',
+                        position: 'center'
+                    }
                 }]
             },
 
