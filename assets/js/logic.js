@@ -86,12 +86,13 @@ function showGraph() {
 
     var xValues = ['q1', 'q2', 'q3', 'q4', 'q5'];
     var yValues = answers;
-    
+
     new Chart("myChart", {
         type: "line",
         data: {
             labels: xValues,
             datasets: [{
+                label: "Your Freedom",
                 backgroundColor: "rgba(0,0,0,0)",
                 borderColor: "#004d00",
                 data: yValues,
@@ -122,22 +123,9 @@ function showGraph() {
                     value: 3,
                     borderColor: '#ba0000',
                     borderWidth: 5,
-                    label: {
-                        enabled: true,
-                        content: 'Average Freedom',
-                        position: 'left'
-                    }
                 }]
             },
-            plugins: {
-                legend: {
-                    display: false,
-                    labels: {
-                        text: 'Your Freedom',
-                        color: '#ffffff'
-                    }
-                }
-            }
+
         }
     });
 
