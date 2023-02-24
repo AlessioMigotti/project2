@@ -125,7 +125,7 @@ function showGraph() {
                     borderWidth: 5,
                     label: {
                         enabled: true,
-                        content: 'Averege ',
+                        content: 'Average ',
                         position: 'center'
                     }
                 }]
