@@ -12,7 +12,9 @@
         width: 350px;
     }
     
+    
 }
+
 
 .submit-btn {
     text-align: center;
@@ -27,3 +29,11 @@
     display: none;
 }
 
+
+.bglp{
+    background-color: #00b300;
+}
+
+.btnlp{
+    margin-top: 100px;
+}

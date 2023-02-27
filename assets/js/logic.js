@@ -82,7 +82,7 @@ function showGraph() {
     document.getElementById('survey-current-question').style.display = 'none';
     document.getElementById('submit').style.display = 'none';
 
-    // put your graph stuff here !!!!!!!!!!
+    
 
     var xValues = ['q1', 'q2', 'q3', 'q4', 'q5'];
     var yValues = answers;
