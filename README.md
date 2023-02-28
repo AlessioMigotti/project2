@@ -37,9 +37,8 @@ So, are you ready to find out how free you are? Take the Free Quantifier quiz to
   * [Navbar](#navbar)
   * [Hero-Image](#hero-image)
   * [Tagline & Call to Action](#tagline--call-to-action)
-  * [Business Ethos](#business-ethos)
-  * [Menu Page](#menu-page)
-  * [Contact Page](#contact-page)
+  * [Landing Page](#landing-page)
+  * [Survey Page](#survey-page)
   * [Footer](#footer)  
 * [Tablet & Mobile View](#tablet--mobile-view)
   * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
@@ -55,13 +54,19 @@ So, are you ready to find out how free you are? Take the Free Quantifier quiz to
   * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
   * [CSS Validation using W3C Validation](#css-validation-using-w3c-validation)
   * [Lighthouse scores via Chrome Developer Tools](#lighthouse-scores-via-chrome-developer-tools)
-  * [Bugs & Fixes](#bugs--fixes)
-  * [Unsolved Bugs](#unsolved-bugs)
 * [Credits](#credits) 
 
 ## User Experience (UX)  
   
-### **User Stories**  
+### **User Stories** 
+
+![User persona 1](assets/images/user-persona%20(13).png)
+![User persona 2](assets/images/user-persona%20(14).png)
+![User persona 3](assets/images/user-persona%20(15).png)
+![User persona 4](assets/images/user-persona%20(16).png)
+![User persona 5](assets/images/user-persona%20(17).png)
+![User persona 6](assets/images/user-persona%20(18).png)
+![User persona 7](assets/images/user-persona%20(19).png)
 
 ### **Primary Goal**  
   
@@ -176,8 +181,10 @@ Colour contrast ratio for frame and background landing page
 Color Blind Safe Check
 ![Color Blind Safe Check](assets/images/Screenshot%20(51).png)
   
+### **Typography**
 
-        
+![Site map on Miro](assets/images/Screenshot%20(76).png)
+
 ### **Imagery**  
   
 The images that I have chosen for my site reflect the bright, retro aesthetic I am looking for. Close-ups of large displays of a landscape create a positive feeling for the user, prompting them to delve further into the suvey section. A large image sits on top the explation and survey, it shows the art of one of the most creative mind of this century Guido Migotti. The app [sketchbook](https://apps.apple.com/us/app/sketchbook/id883738213) was used to drow it, with the use of an ipad and a digital pen used throughout the art.  Attributions to the artist are placed in the [Credits](#credits) section of this README doc.
@@ -191,9 +198,9 @@ The images that I have chosen for my site reflect the bright, retro aesthetic I 
 <details open>
 <summary></summary>  
 
-![screenshot of navbar](docs/documentation/navbar.png) 
+![screenshot of navlogo](assets/images/Screenshot%20(88).png) 
 </details>
-This remains the same across the three pages, in portrait/landscape and mobile/tablet/desktop view.
+This remains the same across the two pages, in portrait/landscape and mobile/tablet/desktop view.
   
 <br>  
 
@@ -211,9 +218,9 @@ The hero image remains the same across all devices, with it becoming square-shap
 <details open>
 <summary></summary> 
 
-![screenshot of tagline and button](docs/documentation/tagline.png)  
+![screenshot of call to action and button](assets/images/Screenshot%20(86).png)  
 </details>
-The tagline image has its opacity set to allow the hero image to still show through. The call to action button was given different shades of the original colour palette to allow its contrast ratio to conform to the accessibility needs of the site.
+ The call to action button was given different shades of the original colour palette to allow its contrast ratio to conform to the accessibility needs of the site.
 
 <br>
 
@@ -266,29 +273,29 @@ The survey page includes a result graph. Two lines one red to deline the averege
 <details>
 <summary></summary>
 
-![screenshot of footer](docs/documentation/footer.png) 
+![screenshot of footer](assets/images/Screenshot%20(80).png) 
 </details>
 The footer remains the same throughout the design. It contains important information for the user and a clickable link to the map page in the 'Find Us' heading.  
 
----   
+ 
 
 
 ## Tablet & Mobile View  
  
 ### **Desktop, Tablet & Mobile Differences**  
   
-To ensure responsivity I used Flexbox in my CSS styling. Main elements in the body of the site i.e. the business ethos, menu sections, and contact sections were displayed in a row format for desktops but this switched to a column for smaller screen sizes. The header and footer remained the same, whilst images were resized to fit the display.
+To ensure responsivity I used media query in my CSS styling. Mainly the survey area. [View of Am I Responsive](https://ui.dev/amiresponsive?url=https://alessiomigotti.github.io/project2/index.html)
+
   
-### **Tablet View (iPad Mini/iPad Pro/Surface Pro)**  
+### **View **  
   
-![screenshots of SCOOPS website on ipad pro](docs/documentation/tablet_view.png)
+![screenshots of Free Qualifier landing page website on different devices](assets/images/Screenshot%20(82).png)
+
+<br>
+  
+![screenshot of Free Qualifier survey website on different devices](assets/images/Screenshot%20(84).png)
 
 
-### **Mobile View (iPhone 5/iPhone SE/iPhone XR/iPhone 12 Pro)**  
-  
-![screenshot of SCOOPS website on iPhone 12 Pro](docs/documentation/mobile_view.png)
-
----  
                               
 
 ## Future Features  
@@ -300,29 +307,37 @@ To ensure responsivity I used Flexbox in my CSS styling. Main elements in the bo
 ---   
   
 
-## Technologies Used    
+## Technologies Used 
+
+[Am I Responsive](https://ui.dev/amiresponsive?url=https://alessiomigotti.github.io/project2/index.html)
+[Sketchbook](https://apps.apple.com/us/app/sketchbook/id883738213)
+[Bootstrap](https://getbootstrap.com/docs/5.3/examples/)
+[Chart.js](https://www.chartjs.org/docs/latest/)
+[Figma](https://www.figma.com/?fuid=)
+[User persona](https://userpersona.dev/)
+[MDN](https://developer.mozilla.org/en-US/)
+[W3 schools](https://www.w3schools.com/js/)
+[W3 HTML validator](https://validator.w3.org/)
+[W3 CSS validator](https://jigsaw.w3.org/css-validator/)
+[Miro.com](https://miro.com/app/dashboard/)
+
 
 ### **Languages Used**   
 
 - HTML5
 - CSS3
+- JavaScript
 
 ### **Frameworks, Libraries, Technologies & Programs Used**  
 
-- Procreate - used to create wireframes and edit images 
 - GitHub - used to save and store all files for this website  
-- Git - used for version control
-- Google Fonts - fonts were imported from here 
-- Font Awesome - icons and their associated kit were downloaded from here  
-- Adobe Color - for all color palettes and accessibility contrast ratios  
-- Favicon.io - for ice cream favicon  
-- Tiny PNG - to compress images 
+- Git - used for version control 
+- Adobe Color - for all color palettes and accessibility contrast ratios    
 - Google Dev Tools - to debug and for testing responsiveness 
 - Google Lighthouse - for auditing the website
-- W3C Validator - for validating the HTML and CSS code 
 
----   
- 
+
+
 
 ## Deployment
 
@@ -331,14 +346,14 @@ To ensure responsivity I used Flexbox in my CSS styling. Main elements in the bo
 GitHub was used to deploy the website. These were the steps taken to acheive this:  
 
 1. Login to GitHub account
-2. Navigate to the project repository, scoops_pp1
+2. Navigate to the project repository, project2
 3. Click the Settings button near the top of the page
 4. In the left-hand menu, find and click on the Pages button
 5. In the Source section, choose 'main' from the drop-down, select branch menu
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
-![screenshot of how to deploy site on github](docs/documentation/deployment.png) 
+![screenshot of how to deploy site on github](assets/images/Screenshot%20(90).png) 
 
 ---  
     
@@ -349,7 +364,7 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 
 I had planned for this site to be accessible and legible on all screen sizes. The user is viewing the site primarily for the menu options and parlour location and they needed to access this information with one click. I used Chrome Dev Tools to test, tweak and debug in the early stages. I deployed my site halfway through to test on real-world devices. These devices included:  
 - Acer Aspire 3 Laptop (1920 X 1080)  
-- Huawei AD80HW 24" Monitor
+- EliteDisplay E201 24" Monitor
 - iPad Pro 2021
 - iPhone SE(2016)
 - Huawei p30 Lite 
@@ -359,53 +374,24 @@ I had planned for this site to be accessible and legible on all screen sizes. Th
 ### **Testing**    
 
 Testing took place throughout the entire build using Dev Tools on Chrome and on the above real-world devices. The browsers used were:  
-- Chrome  
-- Firefox  
-- Edge  
+- Chrome   
 - Safari  
   
-The results of feature testing are as follows:  
-  
-| Page | Test | Pass/Fail |
-| :----| :----| :--------:|
-| All  | SCOOPS logo links back to homepage | Pass |
-| All  | Underline appears under navigation items when the mouse hovers | Pass |
-| All  | Underline stays under active navigation item | Pass |
-| All  | Navigation links bring the user to relevant page | Pass |
-| All  | Footer social media icons bring the user to relevant sites via a new tab | Pass |
-| All  | 'Find Us' heading in footer links to contact page | Pass |
-| All  | Images and sections are responsive in different media sizes | Pass |
-| Index| Hero image zooms in on loading | Pass |
-| Index| Call to Action button links to menu page | Pass | 
-| Menu | Menu is scrollable | Pass |
-| Menu | Menu items are clear and legible | Pass |
-| Contact | Contact form required elements are responsive | Pass |
-| Contact | Form submit button brings you to a validation page | Pass |
-| Contact | Google Map is interactive and opens in a new tab for a larger map | Pass |
 
-Further device testing took place in Dev Tools on:
-  - iPhone 4/5/6/7/8
-  - iPhone XR/ iPhone 12 Pro
-  - Pixel 5
-  - Samsung Galaxy s20
 
  
 ### **HTML Validation using W3C Validation**  
 <details open>
-<summary>Index/landing page HTML validation</summary>  
+<summary>Page HTML validation</summary>  
 
-![screenshot of index page w3c html validation for SCOOPS](docs/documentation/w3c_index.png)
+![screenshot of index page w3c html validation for Free Qualifier](assets/images/Screenshot%20(48).png)
 </details>   
 <details>
-<summary>Menu page HTML validation</summary>  
+<summary>Page CSS validation</summary>  
 
-![screenshot of menu page w3c html validation for SCOOPS](docs/documentation/w3c_menu.png)
+![screenshot of menu page w3c css validation for Free Qualifier](docs/documentation/w3c_menu.png)
 </details>  
-<details>
-<summary>Contact page HTML validation</summary>  
-
-![screenshot of contact page w3c html validation for SCOOPS](docs/documentation/w3c_contact.png)
-</details>  
+ 
   
 <br>  
 
@@ -424,88 +410,56 @@ Further device testing took place in Dev Tools on:
   
 For Desktop   
 <details open>
-<summary>Lighthouse audit for Index page</summary>  
+<summary>Lighthouse audit for landing page</summary>  
 
-![screenshot of lighthouse audit for index page for SCOOPS](docs/documentation/lighthouse_index.png)
+![screenshot of lighthouse audit for index page for Free Quantifier](assets/images/Screenshot%20(95).png)
 </details> 
 <details >
-<summary>Lighthouse audit for Menu page</summary>  
+<summary>Lighthouse audit for survey page</summary>  
 
-![screenshot of lighthouse audit for menu page for SCOOPS](docs/documentation/lighthouse_menu.png)
+![screenshot of lighthouse audit for menu page for Free Quantifier](assets/images/Screenshot%20(97).png)
 </details>
-<details >
-<summary>Lighthouse audit for Contact page</summary>  
-
-![screenshot of lighthouse audit for contact page for SCOOPS](docs/documentation/lighthouse_contact.png)
-</details>      
+     
 
 <br>
   
 For Mobile   
 <details open>
-<summary>Lighthouse audit for Index page - Mobile</summary>  
+<summary>Lighthouse audit for landing page - Mobile</summary>  
 
-![screenshot of lighthouse audit for index page for SCOOPS](docs/documentation/mobileindex_lighthouse.png)
+![screenshot of lighthouse audit for index page for Free Quantifier](assets/images/Screenshot%20(96).png)
 </details> 
 <details >
-<summary>Lighthouse audit for Menu page - Mobile</summary>  
+<summary>Lighthouse audit for survey page - Mobile</summary>  
 
-![screenshot of lighthouse audit for menu page for SCOOPS](docs/documentation/mobilemenu_lighthouse.png)
+![screenshot of lighthouse audit for menu page for Free Quantifier](assets/images/Screenshot%20(98).png)
 </details>
-<details >
-<summary>Lighthouse audit for Contact page - Mobile</summary>  
-
-![screenshot of lighthouse audit for contact page for SCOOPS](docs/documentation/mobilecontact_lighthouse.png)
-</details>      
+      
   
   
-### **Bugs & Fixes**  
-  
-| Bug | Section | Fix |
-| :----| :----| :--------:|
-| Whitespace added to right-hand side of webpages | All pages | Using Dev Tools, I added a thin red border to every element in my website. From this, I discovered that I had mistyped a value in my footer padding section and made it too large. This was pushing the footer element outside of the webpage width. I adjusted the padding to the correct value and the issue was resolved. |
-| Nesting button element & anchor element | Index/Home page | When running an early W3C validation test, I discovered that I had made an error by placing a button element inside an anchor element within my tagline section. Semantically, this was incorrect. I considered using a span element instead and upon consulting Stackoverflow and this [post](https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5) I confirmed my understanding. I re-checked my HTML code with W3C Validator and my live site to find the issue resolved. |
-| Flexbox issues with positioning business ethos section - elements bunched together | Index/Home page | As I was learning flexbox whilst completing the project, I had not yet fully understood the div parent/child relationship. I consulted the Mozilla Developer Docs for Flexbox and discovered that I was not using enough divs for the elements to display correctly. I placed each of my headings, paragraphs, and images within divs and applied flexbox properties to their parent divs and themselves. Assigning flex-direction: row and justify-content: space-around/space-between solved my issue, with each of the elements positioning themselves with appropriate spacing between. I then applied this structure to the remaining two ethos items. |
-| br element in li element  | Menu Page |  Semantically I made an error by using the br element to make space between my menu items. On performing the W3C validation test, I became aware of this error. I considered using margin-top to fix the issue. I Googled the issue to understand my error further and came across a Stackoverflow [post](https://stackoverflow.com/questions/66564503/wrong-validation-on-element-br-in-ul-li-elements), with a comment from Quentin detailing how to use margin-top avoiding the first child element of the parent div. I used this piece of code in my CSS file to control the spacing between the menu items after understanding the code fully. |
-| Viewport meta tag  | Head section/All pages | On first deploying my website to real devices, the mobile pages were appearing zoomed in upon loading. They appeared normally on Dev Tools mobile testing sizes. I checked my CSS code and my viewport meta tag for any obvious errors. Upon finding none I consulted Stackoverflow to find this [post](https://stackoverflow.com/questions/14272420/webpage-starts-zoomed-in-on-mobile-devices). I removed the initial-scale=1.0 from the viewport meta tag, leaving only width=device-width, I ran the code through the W3C Validator to find no errors. This fixed the issue on all real-world mobile and tablet devices |
-| Index page styling disappeared | Index/Home page | Due to commenting out the wrong section of CSS code, I had caused styling on my home page to disappear. Checking the code, I spotted the error and rectified it. |
-| Textarea misalignment | Contact page | Due to a developer mistype, I had altered my CSS code for my contact form textarea. I re-added display:block and margin:auto to center the element again. |
 
-### **Unsolved Bugs** 
 
-- On viewing my deployed site on Safari browser, I found the Josefin Sans font to be displayed differently in the header elements. The website is still displayed adequately despite this issue. I will continue my learning to understand how to combat small, browser display differences to discover if I can overcome this.
 
-- On occasion, when viewing my website in Dev Tools, a small amount of whitespace appears to the right of the Home page. When I refresh the page or clear the cache, this issue resolves itself. I have not figured out yet why this happens on rare occasion.
-
-- Even though my site is responsive on Dev Tools and on real world devices, it does not work on multiple-media, screenshot generating websites like 'ui.dev/amiresponsive'. It appears zoomed in, similar to the viewport meta tag issue as documented above. I have yet to figure out why this is the case.
-
----  
 
 ## Credits  
   
 ### **Content References**
 - All content written for the website is by myself, is purely fictional, and for educational purposes only.
-- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material and 'content zoom' module in the Love Running project.
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS/Javascript learning material.
 - [W3Schools](https://www.w3schools.com/) for additional learning material.
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) for flexbox tutorials and guidance.
-- [dev.to](https://dev.to/snkds/how-to-create-striped-backgrounds-with-css-5dfn) for the CSS diagonal stripes tutorial.
-- Alan from Code Institute Tutor Support for helping me with an element width issue in my media queries.
-- [StackOverflow](https://stackoverflow.com/questions/66564503/wrong-validation-on-element-br-in-ul-li-elements) guidance on removing br element from menu li items to improve semantic HTML
-- [Browserstack](https://www.browserstack.com/guide/what-are-css-and-media-query-breakpoints#:~:text=Essentially%2C%20media%20query%20breakpoints%20are,offers%20an%20optimal%20user%20experience.) for media queries and breakpoints guidance.
-- [Elaine Broche](https://github.com/elainebroche-dev/ms1-thrive) Design inspired by Elaine's striking juice website.
-- [Kera Cudmore - Creating your First README](https://github.com/kera-cudmore/readme-examples) for README structure and Markdown guidance. 
+- Richey from WAES Tutor Support for helping me with some questions i had.
+- [StackOverflow](https://stackoverflow.com/questions/66564503/wrong-validation-on-element-br-in-ul-li-elements).
+- [Scoops](https://github.com/Code-Institute-Submissions/scoops_pp1/blob/main/README.md#navbar) Design inspired README ice cream parlour website.
+ 
   
 
-### **Media References**  
-  
-- [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), and [Pixabay](https://pixabay.com/) for all images used on this site. Credit to photographers Jonathan Cooper, Lukas, Katie Rainbow, Kyle Hinkson, and Dulce Silvagni.
-- [Font Awesome](https://fontawesome.com/) for the icons used in the footer of this site.
-- [Favicon](https://favicon.io/) for the favicon used for this site.
-- [Google Maps](https://www.google.com/maps) for the map used in this site.
+
 
 
 ### **Acknowledgements** 
-- I would like to acknowledge my Code Institute mentor, Rahul Lakhanpal, for his guidance and encouragement on this project.
-- My family for testing my work and offering positive thoughts and hot cups of tea throughout the project.
+- I would like to acknowledge Code Institute for there learning material, and Richey Malahotra for the advice and encouragement for this project.
+- My family and friends for testing my work and offering positive thoughts. My self for food and hot cups of tea throughout the project.
 
 
+# So don't hesitate and come check out the website [Free Quantifier](https://alessiomigotti.github.io/project2/)

@@ -1,3 +1,4 @@
+// Create array
 var questions = [
     'Freedom is a state of the mind.',
     'You\'re free to do what you want.',
@@ -22,19 +23,19 @@ const radio5 = document.getElementById('choice-5');
 var currentQuestionNumber = 0;
 
 
-
+// set the button
 function setup() {
 
     document.getElementById('submit').addEventListener('click', getChoice);
 }
 
-
+// iteration
 function game() {
     // just display the first question
     questionText.innerText = questions[currentQuestionNumber];
 }
 
-
+// check radio buttons before going to the next question
 function getChoice() {
     if ((radio1.checked == false) &&
         (radio2.checked == false) &&
@@ -58,7 +59,7 @@ function getChoice() {
     console.log(answers);
 
 
-
+// display graph
     if (currentQuestionNumber < questions.length - 1) {
         currentQuestionNumber++
     } else {
@@ -76,17 +77,17 @@ function getChoice() {
 
 }
 
-
+// chart.js
 function showGraph() {
-
+//get id
     document.getElementById('survey-current-question').style.display = 'none';
     document.getElementById('submit').style.display = 'none';
 
     
-
+// set graph values
     var xValues = ['q1', 'q2', 'q3', 'q4', 'q5'];
     var yValues = answers;
-
+//set chart
     new Chart("myChart", {
         type: "line",
         data: {
@@ -99,12 +100,12 @@ function showGraph() {
                 pointRadius: 5, // set the size of the data points
                 pointHoverRadius: 7 // set the size of the data points when hovered over
             }]
-        },
+        },//title graph
         options: {
             title: {
                 display: true,
                 text: 'My Freedom State'
-            },
+            },// set values y
             scales: {
                 yAxes: [{
                     ticks: {
@@ -114,7 +115,7 @@ function showGraph() {
                         stepSize: 1 // Add this option to make y-axis labels integers
                     }
                 }]
-            },
+            },// put average line 
             annotation: {
                 annotations: [{
                     type: 'line',
