@@ -127,50 +127,29 @@ The site was developed to be simple, clear, and familiar.
 - For the landing page, the logo, Free Quantifier, was to be top-center of every page, no matter the orientation or screen size.  
 - The simple, item navigation logo of will take you to the index, is situated always to the top-center of the page.  
 - A large, clear image dominates the landing page.  
-- Centered in the image is a intoduction with a large, clickable button situated immediately below it. First-time visitors have access to the survey with one easy click.  
+- Centered in the page is a intoduction with a large, clickable button situated immediately below it. First-time visitors have access to the survey with one easy click.  
 - The page ends with the footer, again offering four pieces of important information to the user, Copyright, Twitter, Instagram and Facebook.  
 
-- For the menu page, the navigation bar and footer remain as before. Between these lies the menu items laid out in identifiable, headed sections. An image of the most requested dessert features at the end of the menu, to assist the visitors' decision.  
+- For the survey page, the navigation logo and footer remain as before. Between these lies the survey items laid out in identifiable, headed sequential sections. Question from the most brilliant minds in the freedom phyilosophy intersected with the expetise of comportamental analyst that created the questions and option following the CBT (Cognitive behavioral therapy). That have a multiple answer choice, where one has to be selected to proceed to the next question.  
   
-- For the contact us page, the navigation and footer remain as before. Two sections are presented with explanatory headings. An optional form for visitors who wish to connect with the business with an interactive Google Map with the business location pinned. There is an option to enlarge the map in a new window and find directions.  
-- Below the map again are the location details for the shop with a phone number to contact them.  
+- For the results, the navigation and footer remain as before. One section is presented with explanatory headings. An optional selection for visitors who wish to get a clearer view of the graph, an interactive legend within the frame.   
 
 ### Wireframes  
 <details open>
-<summary>Wireframe - Homepage Desktop & Mobile</summary>  
+<summary>Wireframe - Free Quantifier</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/homemd_wireframe.png)
+![homepage wireframe-mobile & desktop](assets/images/Screenshot%20(70).png)
 </details> 
-<details >
-<summary>Wireframe - Menu page Desktop</summary>  
-
-![homepage wireframe-mobile & desktop](docs/documentation/menudesktop_wireframe.png)
-</details> 
-<details>
-<summary>Wireframe - Menu page Mobile</summary>  
-
-![homepage wireframe-mobile & desktop](docs/documentation/menumobile_wireframe.png)
-</details>    
-<details>
-<summary>Wireframe - Contact page Desktop</summary>  
-
-![homepage wireframe-mobile & desktop](docs/documentation/contactdesktop_wireframe.png)
-</details> 
-<details>
-<summary>Wireframe - Contact page Mobile</summary>  
-
-![homepage wireframe-mobile & desktop](docs/documentation/contactmobile_wireframe.png)
-</details>              
+           
 
 ### **5. Surface**  
 
- A design was created that allowed a consistent flow throughout the three-page site.   
- - A background was designed to reflect the cone wrapper used by the SCOOPS parlour. The striped, two-tone panel adorns each page, clearly identifying the SCOOPS brand.  
-- A palette of blues and reds was created, similar to the interior of the parlour.  
-- A clean, sans-serif font, 'Josefin sans' was used in a medium weight to provide legible text at any size. 
-- Corners on all elements were rounded to maintain a retro feel. 
+ A design was created that allowed a consistent flow throughout the two-page site.   
+ - On the landing page the background was designed to reflect the surveys frame used by the Free Quantifier website.   
+- A palette of green, red and black was created, to inspire calmess.   
+- Corners on all button elements are rounded to maintain a retro feel. 
 
-Overall, the design was intended and created to foster the emotional and familiar connection customers have with the parlour.  
+Overall, the design was intended and created to foster the emotional and familiar connection customers have with freedom.  
  
 ---   
   
@@ -179,28 +158,29 @@ Overall, the design was intended and created to foster the emotional and familia
 
 ### **Color Scheme**  
 
-This website used a fresh, bold palette of blues and reds to capture the aesthetic of a traditional ice cream parlour. The colours reminded me of ice cream wrappers and packaging. I combined these with an off-white shade that felt paperlike and clean.  
+This website used a fresh, bold palette of whites and greens to capture the aesthetic of a traditional survey. The colours reminded me of calmness and freedom. I combined these with an black text and red graph line that felt clean.  
   
-![colour theme swatches](docs/documentation/colourtheme.png)  
+![colour theme swatches](assets/images/Screenshot%20(56).png)  
   
-I experienced an issue with the contrast ratio for my buttons. The ratio of the (#78D5F7) blue and (#F53636) red fell short of the acceptable [WCAG](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) contrast ratio. To fix this and increase the accessibility of my site I used different shades of these colours to conform.  
+
   
-![Colour contrast ratio for buttons](docs/documentation/buttoncontrast.png)  
+
   
 [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) provided this fantastic resource for checking how accessible your colours are. I submitted my palette to the [Color Blind Safe](https://color.adobe.com/create/color-accessibility) check to find they passed this test also.  
+Colour contrast ratio for graph average
+![Colour contrast ratio for graph average](assets/images/Screenshot%20(52).png) 
+Colour contrast ratio for graph score
+![Colour contrast ratio for graph score](assets/images/Screenshot%20(54).png)
+Colour contrast ratio for frame and background landing page  
+![Colour contrast ratio for frame and background landing page](assets/images/Screenshot%20(53).png) 
+Color Blind Safe Check
+![Color Blind Safe Check](assets/images/Screenshot%20(51).png)
   
-![Color Blind Safe Check](docs/documentation/cb_safe.png)
-  
-### **Typography**  
-  
-[Google Fonts](https://fonts.google.com/) was used to import the fonts 'Josefin Sans' and 'Lato'. I felt the clear, soft lettering suited the intended aesthetic of the website. I had intentions to use Lato for my smaller bodies of text, however, I chose to stick with Josefin to keep the font consistent.   
-  
-![google Fonts Josefin Sans](docs/documentation/josefinfont.png)
 
         
 ### **Imagery**  
   
-The images that I have chosen for my site reflect the bright, retro aesthetic I am looking for. Close-ups of large displays of ice cream create a positive feeling for the user, prompting them to delve further into the menu section. A large image sits below the menu options, it shows the most popular dessert of a warm brownie with a scoop of delicious ice cream. The sites [pexels.com](https://www.pexels.com/), [unsplash.com](https://unsplash.com/) and [pixabay.com](https://pixabay.com/) provided the royalty-free stock images used throughout the website, with attributions to each photographer placed in the [Credits](#credits) section of this README doc.
+The images that I have chosen for my site reflect the bright, retro aesthetic I am looking for. Close-ups of large displays of a landscape create a positive feeling for the user, prompting them to delve further into the suvey section. A large image sits on top the explation and survey, it shows the art of one of the most creative mind of this century Guido Migotti. The app [sketchbook](https://apps.apple.com/us/app/sketchbook/id883738213) was used to drow it, with the use of an ipad and a digital pen used throughout the art.  Attributions to the artist are placed in the [Credits](#credits) section of this README doc.
 
 ---  
   
@@ -217,11 +197,11 @@ This remains the same across the three pages, in portrait/landscape and mobile/t
   
 <br>  
 
-### **Hero Image**  
+### **Logo**  
 <details open>  
 <summary></summary>
 
-![screenshot of hero image](docs/documentation/heroimage.png)  
+![Hero image](assets/images/logofree.webp)  
 </details>
 The hero image remains the same across all devices, with it becoming square-shaped for smaller screens.  
 
@@ -237,37 +217,48 @@ The tagline image has its opacity set to allow the hero image to still show thro
 
 <br>
 
-### **Business Ethos**  
-<details> 
-<summary></summary>
-
-![screenshot of ethos and images](docs/documentation/aboutus.png)  
-
-![screenshot of ethos and images](docs/documentation/dairy.png)  
-
-![screenshot ethos and images](docs/documentation/hereortogo.png)  
-</details>
-Small portions of text with clear headings are accompanied by striking images that reflect the ice cream parlour's products. In tablet/mobile view, these sections are displayed in a column.  
 
 <br>
   
-### **Menu Page** 
+### **Landing Page** 
 <details>
 <summary></summary> 
 
-![screenshot of menu page](docs/documentation/menu.png)  
+![screenshot of landing page](assets/images/Screenshot%20(78).png)  
 </details>
-The striped design occupies the whole page, with off-white backgrounds styled with a lower opacity displaying the menu items available at SCOOPS. A large image of a warm brownie is situated at the end of the menu. The menu format switches to columnar for the tablet/mobile views.
+The green background occupies the whole page, with black text styled by default. A large image of the artist is situated at the top of the page. The start the game button ridirects to the survey.
 
 <br>
 
-### **Contact Page**  
-<details>
-<summary></summary> 
+### **Survey Page**  
+<details open>
+
  
-![screenshot of contact us page](docs/documentation/contact_page.png)  
+![screenshot of survey page](assets/images/Screenshot%20(64).png)
 </details>
-Similar to the menu page design. Two sections for contacting the business with a form element and an embedded, interactive Google map, sitting in a row. These elements switch to columnar format for tablet/mobile views.
+<details open>
+
+![screenshot of survey page](assets/images/Screenshot%20(65).png)
+</details>
+<details open>
+
+![screenshot of survey page](assets/images/Screenshot%20(66).png)
+</details>
+<details open>
+
+![screenshot of survey page](assets/images/Screenshot%20(67).png)
+</details>
+<details open>
+
+![screenshot of survey page](assets/images/Screenshot%20(68).png)  
+</details>
+The survey page includes a result graph. Two lines one red to deline the averege and a dark green line for the results, interactive legend, sitting on top of the graph. 
+
+<details open>
+
+![screenshot of survey page results](assets/images/Screenshot%20(73).png)  
+</details>
+
 
 <br>
 
@@ -421,9 +412,10 @@ Further device testing took place in Dev Tools on:
 ### **CSS Validation using W3C Validation** 
 
 <details open>
-<summary>SCOOPS CSS validation</summary>  
+<summary>Free Quantifier CSS validation</summary>  
 
-![screenshot of CSS validation for SCOOPS](docs/documentation/w3c_css.png)
+![screenshot of CSS validation for SCOOPS](assets/images/Screenshot%20(48).png)
+![screenshot of CSS validation for SCOOPS](assets/images/Screenshot%20(49).png)
 </details>   
 
 <br>  
