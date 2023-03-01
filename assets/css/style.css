@@ -1,3 +1,4 @@
+/*survey page*/
 .survey-box {
     width: 800px;
     border: 5px solid #00b300;
@@ -29,11 +30,11 @@
     display: none;
 }
 
-
+/* background landing page */
 .bglp{
     background-color: #00b300;
 }
-
+/* button landing page */
 .btnlp{
     margin-top: 70px;
 }
