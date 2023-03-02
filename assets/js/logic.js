@@ -61,7 +61,7 @@ function getChoice() {
 
 // display graph
     if (currentQuestionNumber < questions.length - 1) {
-        currentQuestionNumber++
+        currentQuestionNumber++;
     } else {
         showGraph();
     }
