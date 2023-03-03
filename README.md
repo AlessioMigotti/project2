@@ -383,13 +383,9 @@ Testing took place throughout the entire build using Dev Tools on Chrome and on 
 
 ![screenshot of index page w3c html validation for Free Qualifier](assets/images/Screenshot%20(48).png)
 </details>   
-<details>
-<summary>Page CSS validation</summary>  
 
-![screenshot of menu page w3c css validation for Free Qualifier](docs/documentation/w3c_menu.png)
-</details>  
- 
-  
+
+
 <br>  
 
 ### **CSS Validation using W3C Validation** 
@@ -402,6 +398,11 @@ Testing took place throughout the entire build using Dev Tools on Chrome and on 
 </details>   
 
 <br>  
+
+### Javascript validation
+The validation for the Javascript was done on JSHint. It displays problems, thet are given by the fact that the validator can't access the library (Chart.js) that isn't imported in the js, but in thr HTML. No other problems about the code appered, it only had an issue with the library being imported in another file.
+
+<br>
 
 ### **Lighthouse scores via Chrome Developer Tools**   
   
