@@ -298,13 +298,10 @@ To ensure responsivity I used media query in my CSS styling. Mainly the survey a
 
                               
 
-## Future Features  
+## Process
 
-- For future development, I would like to include an ordering system on the website to allow customers to order menu items for takeaway and a form element for larger orders to cater for parties and events.  
-- An embedded video of the in-house ice cream production, showing customers how to make ice cream from beginning to end.
-- A gallery page of dessert specials, events held at the parlour, and candid photos of customers and staff.
-  
----   
+The website will opwn on a landing page, writen in HTML. Pressing the start buttun will ridirect the user to the survey/quiz page that is layed out in HTML with the use of Javascript. This will go trough the array of questions. The answer must be selected to be able pass to the next question. When the array has concuded the chart imported from Chart.js will appear, with the answers selected displayed. There is an average that is based on the idea that majority of people can't define there freedom.
+Once the user has compleated the survey has to refresh the page to repeat it.   
   
 
 ## Technologies Used 
