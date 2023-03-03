@@ -53,6 +53,7 @@ So, are you ready to find out how free you are? Take the Free Quantifier quiz to
 * [Testing](#testing)
   * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
   * [CSS Validation using W3C Validation](#css-validation-using-w3c-validation)
+  * [Javascript Validation using JSHint Validation](#javascript-validation-using-jshint-validation)
   * [Lighthouse scores via Chrome Developer Tools](#lighthouse-scores-via-chrome-developer-tools)
 * [Credits](#credits) 
 
@@ -381,7 +382,7 @@ Testing took place throughout the entire build using Dev Tools on Chrome and on 
 <details open>
 <summary>Page HTML validation</summary>  
 
-![screenshot of index page w3c html validation for Free Qualifier](assets/images/Screenshot%20(48).png)
+![screenshot of index page w3c html validation for Free Qualifier](assets/images/Screenshot%20(49).png)
 </details>   
 
 
@@ -393,13 +394,14 @@ Testing took place throughout the entire build using Dev Tools on Chrome and on 
 <details open>
 <summary>Free Quantifier CSS validation</summary>  
 
-![screenshot of CSS validation for SCOOPS](assets/images/Screenshot%20(48).png)
-![screenshot of CSS validation for SCOOPS](assets/images/Screenshot%20(49).png)
+![screenshot of CSS validation for Free Quantifier](assets/images/Screenshot%20(48).png)
+
 </details>   
 
 <br>  
 
-### Javascript validation
+### **Javascript Validation using JSHint Validation**
+
 The validation for the Javascript was done on JSHint. It displays problems, thet are given by the fact that the validator can't access the library (Chart.js) that isn't imported in the js, but in thr HTML. No other problems about the code appered, it only had an issue with the library being imported in another file.
 
 <br>
